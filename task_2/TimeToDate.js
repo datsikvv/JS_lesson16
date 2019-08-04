@@ -71,6 +71,6 @@ calculate(ms) {
     this.month = (this.year*12).toFixed(2);
     return this.sec, this.min, this.hour, this.day, this.week, this.month, this.year;
 };
-}
+};
 
 module.exports = TimeToDate;
